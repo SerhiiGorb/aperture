@@ -288,4 +288,14 @@ footer {
     background: #000000;
 }
 
-footer img
+footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+
+
+    color: #C0C0C0;
+}
