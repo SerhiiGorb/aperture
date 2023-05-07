@@ -108,6 +108,127 @@ header nav ul li:last-of-type a {
 
 }
 
+/*What we do.*/
+
+
+.what_we_do {
+    background: #000000;
+    padding-top: 113px;
+    padding-bottom: 84px;
+}
+
+.what_we_do .container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.what_we_do h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.what_we_do h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+
+}
+
+.what_we_do .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.what_we_do .cards article {
+    max-width: 576px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.what_we_do .description{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+.what_we_do .cards article img {
+    width: 100%;
+    display: block;
+}
+
+.what_we_do .description h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+      letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.what_we_do .description p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+       color: #C0C0C0;
+    margin-bottom: 20px;
+
+}
+
+
+
+.what_we_do .description a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+
+    background: #FFFFFF;
+    border-radius: 14px;
+    max-width: 154px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 10px;
+
+
+}
+
+.what_we_do .description a::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-left: 4px;
+
+}
+
+
+
+
+
 /*Sunset*/
 
 .Sunset {
@@ -215,7 +336,7 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
 }
 
-.help{
+.help {
     background: #000000;
     padding-top: 113px;
     padding-bottom: 108px;
@@ -228,7 +349,7 @@ header nav ul li:last-of-type a {
 
 }
 
-.help .help_container h2{
+.help .help_container h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 40px;
@@ -238,7 +359,7 @@ header nav ul li:last-of-type a {
 
 }
 
-.help .help_container h3{
+.help .help_container h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -248,7 +369,7 @@ header nav ul li:last-of-type a {
 
 }
 
-.help .help_container a{
+.help .help_container a {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -263,16 +384,15 @@ header nav ul li:last-of-type a {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-margin: 22px 209px 108px 209px;
+    margin: 22px 209px 108px 209px;
     padding-top: 11px;
     padding-bottom: 11px;
     padding-right: 10px;
 
 
-
-
 }
-a::before{
+
+.help .help_container a::before {
     content: "";
     width: 32px;
     height: 32px;
@@ -288,10 +408,10 @@ footer {
     background: #000000;
 }
 
-footer p{
+footer p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
-       color: #C0C0C0;
+    color: #C0C0C0;
 }
