@@ -277,6 +277,7 @@ header nav ul li:last-of-type a {
     align-items: center;
     padding-right: 87px;
     box-sizing: border-box;
+    background-position: bottom;
 }
 
 .Monstera article {
@@ -301,6 +302,55 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
 }
 
+
+/*Past clients*/
+
+
+.past_clients {
+
+    background: #000000;
+        padding-top: 113px;
+    padding-bottom: 140px;
+}
+
+.past_clients_container{
+    max-width: 1440px;
+    margin: auto;
+
+}
+
+
+.past_clients .past_clients_container h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+       text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.past_clients .past_clients_container p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+       text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+
+.past_clients .past_clients_referens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 182px;
+    padding-left: 182px;
+}
+
+.past_clients .past_clients_referens a img{
+    display: block;
+}
 /*star*/
 
 .star {
@@ -312,6 +362,7 @@ header nav ul li:last-of-type a {
     align-items: center;
     padding-right: 106px;
     box-sizing: border-box;
+    background-position: bottom;
 }
 
 .star article {
@@ -404,14 +455,158 @@ header nav ul li:last-of-type a {
 }
 
 footer {
-    max-width: 1440px;
+
     background: #000000;
+    padding-top: 92px;
+    padding-bottom: 100px;
+
 }
 
-footer p {
+footer .bottom_container {
+    max-width: 1440px;
+    margin: auto;
+
+}
+footer .bottom_container_logo p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
     color: #C0C0C0;
+}
+footer .bottom_container_list_1 ul {
+    list-style: none;
+
+}
+footer .bottom_container_list_1 ul li h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+        letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 10px;
+
+}
+footer .bottom_container_list_1 ul li{
+    margin-bottom: 10px;
+}
+
+footer .bottom_container_list_1 ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+        color: #FFFFFF;
+    text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+footer .bottom_container_list_2{
+    margin-left: 55px;
+
+}
+
+footer .bottom_container_list_2 ul {
+    list-style: none;
+
+}
+footer .bottom_container_list_2 ul li h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 10px;
+
+}
+footer .bottom_container_list_2 ul li{
+    margin-bottom: 10px;
+}
+
+footer .bottom_container_list_2 ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+
+
+}
+
+
+footer .bottom_container_list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+.bottom_container_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.subscribe_left ul {
+    list-style: none;
+}
+.subscribe_left ul li h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+       letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.subscribe_left ul li p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+       color: #C0C0C0;
+
+}
+.subscribe_right form {
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    max-width: 458px;
+    height: 52px;
+}
+
+.subscribe_right form input{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+
+    height: 52px;
+
+}
+.subscribe_right form::after {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-left: 4px;
 }
