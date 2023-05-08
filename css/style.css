@@ -155,23 +155,24 @@ header nav ul li:last-of-type a {
     position: relative;
 }
 
-.what_we_do .description{
+.what_we_do .description {
     position: absolute;
     bottom: 30px;
     left: 30px;
     right: 30px;
 }
+
 .what_we_do .cards article img {
     width: 100%;
     display: block;
 }
 
-.what_we_do .description h4{
+.what_we_do .description h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-      letter-spacing: 2px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
@@ -179,16 +180,15 @@ header nav ul li:last-of-type a {
 
 }
 
-.what_we_do .description p{
+.what_we_do .description p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-       color: #C0C0C0;
+    color: #C0C0C0;
     margin-bottom: 20px;
 
 }
-
 
 
 .what_we_do .description a {
@@ -224,9 +224,6 @@ header nav ul li:last-of-type a {
     margin-left: 4px;
 
 }
-
-
-
 
 
 /*Sunset*/
@@ -309,33 +306,33 @@ header nav ul li:last-of-type a {
 .past_clients {
 
     background: #000000;
-        padding-top: 113px;
+    padding-top: 113px;
     padding-bottom: 140px;
 }
 
-.past_clients_container{
+.past_clients_container {
     max-width: 1440px;
     margin: auto;
 
 }
 
 
-.past_clients .past_clients_container h3{
+.past_clients .past_clients_container h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 40px;
     line-height: 42px;
-       text-align: center;
+    text-align: center;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
 
-.past_clients .past_clients_container p{
+.past_clients .past_clients_container p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-       text-align: center;
+    text-align: center;
     color: #C0C0C0;
     margin-bottom: 82px;
 }
@@ -348,9 +345,10 @@ header nav ul li:last-of-type a {
     padding-left: 182px;
 }
 
-.past_clients .past_clients_referens a img{
+.past_clients .past_clients_referens a img {
     display: block;
 }
+
 /*star*/
 
 .star {
@@ -467,6 +465,7 @@ footer .bottom_container {
     margin: auto;
 
 }
+
 footer .bottom_container_logo p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -474,53 +473,13 @@ footer .bottom_container_logo p {
     line-height: 20px;
     color: #C0C0C0;
 }
+
 footer .bottom_container_list_1 ul {
     list-style: none;
 
 }
-footer .bottom_container_list_1 ul li h4{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-        letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #C0C0C0;
-    margin-bottom: 10px;
 
-}
-footer .bottom_container_list_1 ul li{
-    margin-bottom: 10px;
-}
-
-footer .bottom_container_list_1 ul li a{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-        color: #FFFFFF;
-    text-decoration: none;
-
-
-
-}
-
-
-
-
-
-
-footer .bottom_container_list_2{
-    margin-left: 55px;
-
-}
-
-footer .bottom_container_list_2 ul {
-    list-style: none;
-
-}
-footer .bottom_container_list_2 ul li h4{
+footer .bottom_container_list_1 ul li h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -531,11 +490,12 @@ footer .bottom_container_list_2 ul li h4{
     margin-bottom: 10px;
 
 }
-footer .bottom_container_list_2 ul li{
+
+footer .bottom_container_list_1 ul li {
     margin-bottom: 10px;
 }
 
-footer .bottom_container_list_2 ul li a{
+footer .bottom_container_list_1 ul li a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -545,68 +505,152 @@ footer .bottom_container_list_2 ul li a{
     text-decoration: none;
 
 
+}
+
+
+footer .bottom_container_list_2 {
+    margin-left: 55px;
+
+}
+
+footer .bottom_container_list_2 ul {
+    list-style: none;
+
+}
+
+footer .bottom_container_list_2 ul li h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 10px;
+
+}
+
+footer .bottom_container_list_2 ul li {
+    margin-bottom: 10px;
+}
+
+footer .bottom_container_list_2 ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+
 
 }
 
 
-footer .bottom_container_list{
+footer .bottom_container_list {
     display: flex;
     justify-content: center;
     margin-bottom: 36px;
 }
+
 .bottom_container_top {
     display: flex;
     justify-content: space-between;
 }
 
-.subscribe{
+.subscribe {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 .subscribe_left ul {
     list-style: none;
 }
-.subscribe_left ul li h4{
+
+.subscribe_left ul li h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-       letter-spacing: 2px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
 
 }
 
-.subscribe_left ul li p{
+.subscribe_left ul li p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
-       color: #C0C0C0;
+    color: #C0C0C0;
 
 }
+
+.subscribe_right {
+    max-width: 458px;
+
+}
+
 .subscribe_right form {
     background: #F9FAFB;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
-    max-width: 458px;
-    height: 52px;
-}
+    display: flex;
+    align-items: center;
 
-.subscribe_right form input{
-    border: 1px solid #E5E7EB;
-    border-radius: 12px;
-
-    height: 52px;
 
 }
-.subscribe_right form::after {
-    content: "";
-    width: 32px;
-    height: 32px;
-    background-color: black;
-    border-radius: 50%;
-    margin-right: 6px;
-    margin-left: 4px;
+
+.subscribe_text {
+
+
+    width: 376px;
+    height: 38px;
+    border: none;
+
+}
+
+.subscribe_right img {
+
+    width: 63px;
+    height: 30px;
+    padding-top: 11px;
+    padding-right: 6px;
+    padding-bottom: 11px;
+    margin-left: 6px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.bottom_container_bottom {
+
+    padding-top: 56px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inc {
+    max-width: 400px;
+
+}
+
+.inc span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+
+.icons a {
+    margin-left: 25px;
 }
