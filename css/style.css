@@ -60,7 +60,7 @@ header nav ul li:last-of-type a {
     padding: 11px 20px;
 }
 
-/* main_banner*/
+                /* main_banner*/
 
 .main_banner {
     background-image: url("../images/IMAGE.jpg");
@@ -108,7 +108,7 @@ header nav ul li:last-of-type a {
 
 }
 
-/*What we do.*/
+                /*What we do.*/
 
 
 .what_we_do {
@@ -226,7 +226,7 @@ header nav ul li:last-of-type a {
 }
 
 
-/*Sunset*/
+                    /*Sunset*/
 
 .Sunset {
     background-image: url("../images/sanset.jpg");
@@ -263,7 +263,105 @@ header nav ul li:last-of-type a {
 
 }
 
-/*Monstera*/
+
+                /*The tools that we use.*/
+
+.tools {
+    background: #000000;
+}
+
+.tools_container {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tools_left {
+    padding-top: 173px;
+    padding-bottom: 153px;
+    max-width: 514px;
+    padding-right: 106px;
+    padding-left: 100px;
+
+
+}
+
+
+.tools_left h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+
+}
+
+.tools_left h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+
+}
+
+.tools_left p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.tools .tools_container .tools_left a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    text-decoration: none;
+    padding-top: 11px;
+    padding-right: 10px;
+    padding-bottom: 11px;
+    display: inline-flex;
+    align-items: center;
+
+
+}
+
+.tools .tools_container .tools_left a::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-left: 4px;
+    display: inline-block;
+
+
+}
+
+.tools_right {
+    background-image: url("../images/photo.jpg");
+    background-size: cover;
+    width: 926px;
+    min-height: 540px;
+
+}
+
+
+                    /*Monstera*/
 
 .Monstera {
     background-image: url("../images/monstera.jpg");
@@ -300,7 +398,7 @@ header nav ul li:last-of-type a {
 }
 
 
-/*Past clients*/
+                    /*Past clients*/
 
 
 .past_clients {
@@ -349,7 +447,7 @@ header nav ul li:last-of-type a {
     display: block;
 }
 
-/*star*/
+                        /*star*/
 
 .star {
     background-image: url("../images/star.jpg");
@@ -385,6 +483,8 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
 }
 
+
+                        /*help*/
 .help {
     background: #000000;
     padding-top: 113px;
@@ -451,6 +551,10 @@ header nav ul li:last-of-type a {
     margin-left: 4px;
 
 }
+
+
+                            /*footer*/
+
 
 footer {
 
