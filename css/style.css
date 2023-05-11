@@ -71,8 +71,51 @@ header nav ul li:last-of-type a {
     align-items: flex-end;
     padding-bottom: 71px;
     box-sizing: border-box;
+    position: relative;
 }
 
+.bottom_icons{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    list-style: none;
+}
+
+.bottom_icons li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+       color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.bottom_icons li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/IMAGE_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -6px;
+}
+
+.bottom_icons li:nth-child(2):before{
+    background-image: url("../images/IMAGE_2.svg");
+
+}
+
+.bottom_icons li:nth-child(3):before{
+    background-image: url("../images/IMAGE_3.svg");
+width: 32px;
+}
+
+.bottom_icons li:nth-child(4):before{
+    background-image: url("../images/IMAGE_4.svg");
+width: 10px;
+}
 .main_banner article {
     max-width: 580px;
     text-align: center;
@@ -237,6 +280,7 @@ header nav ul li:last-of-type a {
     align-items: center;
     padding-right: 62px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .Sunset article {
@@ -264,31 +308,80 @@ header nav ul li:last-of-type a {
 }
 
 
+.bottom_icons_sunset{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    list-style: none;
+}
+
+.bottom_icons_sunset li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.bottom_icons_sunset li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/IMAGE_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -6px;
+}
+
+.bottom_icons_sunset li:nth-child(2):before{
+    background-image: url("../images/IMAGE_2.svg");
+
+}
+
+.bottom_icons_sunset li:nth-child(3):before{
+    background-image: url("../images/IMAGE_3.svg");
+    width: 32px;
+}
+
+.bottom_icons_sunset li:nth-child(4):before{
+    background-image: url("../images/IMAGE_4.svg");
+    width: 10px;
+}
+
                 /*The tools that we use.*/
 
 .tools {
     background: #000000;
+    position: relative;
+    min-height: 540px;
+
+
 }
 
 .tools_container {
-    max-width: 1440px;
-    margin: auto;
+    max-width: 1240px;
+    min-height: 540px;
     display: flex;
-    justify-content: space-between;
+
+    align-items: center;
+padding-left: 100px;
+
+
+
 }
 
-.tools_left {
-    padding-top: 173px;
-    padding-bottom: 153px;
+.tools_container article{
+
     max-width: 514px;
-    padding-right: 106px;
-    padding-left: 100px;
 
 
 }
 
 
-.tools_left h4 {
+.tools_container h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -300,7 +393,7 @@ header nav ul li:last-of-type a {
 
 }
 
-.tools_left h3 {
+.tools_container h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 28px;
@@ -310,7 +403,7 @@ header nav ul li:last-of-type a {
 
 }
 
-.tools_left p {
+.tools_container p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -320,7 +413,7 @@ header nav ul li:last-of-type a {
 
 }
 
-.tools .tools_container .tools_left a {
+.tools .tools_container a {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -339,7 +432,7 @@ header nav ul li:last-of-type a {
 
 }
 
-.tools .tools_container .tools_left a::before {
+.tools .tools_container a::before {
     content: "";
     width: 32px;
     height: 32px;
@@ -354,10 +447,57 @@ header nav ul li:last-of-type a {
 
 .tools_right {
     background-image: url("../images/photo.jpg");
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
     background-size: cover;
-    width: 926px;
-    min-height: 540px;
 
+
+}
+
+.bottom_icons_tools{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    list-style: none;
+}
+
+.bottom_icons_tools li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.bottom_icons_tools li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/IMAGE_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -6px;
+}
+
+.bottom_icons_tools li:nth-child(2):before{
+    background-image: url("../images/IMAGE_2.svg");
+
+}
+
+.bottom_icons_tools li:nth-child(3):before{
+    background-image: url("../images/IMAGE_3.svg");
+    width: 32px;
+}
+
+.bottom_icons_tools li:nth-child(4):before{
+    background-image: url("../images/IMAGE_4.svg");
+    width: 10px;
 }
 
 
@@ -373,6 +513,7 @@ header nav ul li:last-of-type a {
     padding-right: 87px;
     box-sizing: border-box;
     background-position: bottom;
+    position: relative;
 }
 
 .Monstera article {
@@ -397,6 +538,48 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
 }
 
+.bottom_icons_monstera{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    list-style: none;
+}
+
+.bottom_icons_monstera li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.bottom_icons_monstera li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/IMAGE_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -6px;
+}
+
+.bottom_icons_monstera li:nth-child(2):before{
+    background-image: url("../images/IMAGE_2.svg");
+
+}
+
+.bottom_icons_monstera li:nth-child(3):before{
+    background-image: url("../images/IMAGE_3.svg");
+    width: 32px;
+}
+
+.bottom_icons_monstera li:nth-child(4):before{
+    background-image: url("../images/IMAGE_4.svg");
+    width: 10px;
+}
 
                     /*Past clients*/
 
@@ -459,6 +642,7 @@ header nav ul li:last-of-type a {
     padding-right: 106px;
     box-sizing: border-box;
     background-position: bottom;
+    position: relative;
 }
 
 .star article {
@@ -481,6 +665,49 @@ header nav ul li:last-of-type a {
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+
+.bottom_icons_star{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    list-style: none;
+}
+
+.bottom_icons_star li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.bottom_icons_star li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/IMAGE_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -6px;
+}
+
+.bottom_icons_star li:nth-child(2):before{
+    background-image: url("../images/IMAGE_2.svg");
+
+}
+
+.bottom_icons_star li:nth-child(3):before{
+    background-image: url("../images/IMAGE_3.svg");
+    width: 32px;
+}
+
+.bottom_icons_star li:nth-child(4):before{
+    background-image: url("../images/IMAGE_4.svg");
+    width: 10px;
 }
 
 
