@@ -12,8 +12,7 @@ header {
 header .container {
     max-width: 1200px;
     margin: auto;
-    padding-left: 120px;
-    padding-right: 120px;
+
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -620,10 +619,9 @@ padding-left: 100px;
 
 .past_clients .past_clients_referens {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-right: 182px;
-    padding-left: 182px;
+
 }
 
 .past_clients .past_clients_referens a img {
@@ -786,13 +784,13 @@ padding-left: 100px;
 footer {
 
     background: #000000;
-    padding-top: 92px;
+    padding-top: 100px;
     padding-bottom: 100px;
 
 }
 
 footer .bottom_container {
-    max-width: 1440px;
+    max-width: 1168px;
     margin: auto;
 
 }
@@ -892,13 +890,13 @@ footer .bottom_container_list {
 .subscribe {
     padding-top: 40px;
     padding-bottom: 40px;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
 }
 
-.subscribe_left ul {
-    list-style: none;
-}
 
-.subscribe_left ul li h4 {
+
+.subscribe_left h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -910,7 +908,7 @@ footer .bottom_container_list {
 
 }
 
-.subscribe_left ul li p {
+.subscribe_left p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 13px;
@@ -921,41 +919,43 @@ footer .bottom_container_list {
 
 .subscribe_right {
     max-width: 458px;
+    width: 100%;
+
 
 }
 
 .subscribe_right form {
     background: #F9FAFB;
-    border: 1px solid #E5E7EB;
+box-sizing: border-box;
     border-radius: 12px;
     display: flex;
     align-items: center;
+justify-content: space-between;
+    width: 100%;
+    height: 52px;
+    max-width: 458px;
+    padding-right: 6px;
 
 
 }
-
-.subscribe_text {
-
-
-    width: 376px;
-    height: 38px;
+footer form input{
+    line-height: 52px;
     border: none;
-
+    background-color: transparent;
+    width: 80%;
 }
-
-.subscribe_right img {
-
+footer form button{
     width: 63px;
     height: 30px;
-    padding-top: 11px;
-    padding-right: 6px;
-    padding-bottom: 11px;
-    margin-left: 6px;
+    background-color: black;
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
 }
-
 .subscribe {
     display: flex;
     justify-content: space-between;
+
 
 }
 
@@ -973,7 +973,15 @@ footer .bottom_container_list {
 
 }
 
-.inc span {
+.inc p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.inc p a{
+    text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 13px;
@@ -981,7 +989,7 @@ footer .bottom_container_list {
     color: #C0C0C0;
 }
 
-
 .icons a {
     margin-left: 25px;
+
 }
