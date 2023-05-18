@@ -1,3 +1,27 @@
+@media only screen and (max-width: 1218px) {
+    .tools_container {
+        justify-content: left;
+
+    }
+}
+    @media only screen and (max-width: 1218px) {
+        .tools_container article {
+            max-width: 500px;
+
+        }
+    }
+        @media only screen and (max-width: 1218px) {
+            .tools_container article {
+                max-width: 400px;
+
+            }
+        }
+            @media only screen and (max-width: 1218px) {
+                .tools_container article {
+                    max-width: 350px;
+
+                }
+            }
 @media only screen and (max-width: 822px) {
     header nav ul li {
         margin-left: 12px;
@@ -9,6 +33,9 @@
         font-size: 11px;
         margin-left: 8px;
     }
+    .past_clients .past_clients_referens{
+    flex-wrap: wrap;
+}
 }
 
 @media only screen and (max-width: 711px) {

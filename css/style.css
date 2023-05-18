@@ -361,12 +361,12 @@ width: 10px;
 }
 
 .tools_container {
-    max-width: 1240px;
+    max-width: 720px;
     min-height: 540px;
     display: flex;
-
+justify-content: center;
     align-items: center;
-padding-left: 100px;
+
 
 
 
