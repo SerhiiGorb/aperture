@@ -588,6 +588,7 @@ justify-content: center;
     background: #000000;
     padding-top: 113px;
     padding-bottom: 140px;
+    margin: auto;
 }
 
 .past_clients_container {
@@ -595,6 +596,8 @@ justify-content: center;
     margin: auto;
 
 }
+
+
 
 
 .past_clients .past_clients_container h3 {
@@ -619,8 +622,19 @@ justify-content: center;
 
 .past_clients .past_clients_referens {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: auto;
+
+
+
+
+
+}
+
+.past_clients a{
+    max-width: 128px;
+    display: inline-block;
 
 }
 
@@ -992,4 +1006,68 @@ footer form button{
 .icons a {
     margin-left: 25px;
 
+}
+
+.owl-stage{
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+}
+
+.faq{
+    background-color: black;
+    padding: 50px 0;
+}
+
+.faq .container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.faq .ui-accordion .ui-accordion-header{
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    border-radius: 0;
+    padding: 20px;
+}
+
+.faq .ui-accordion .ui-accordion-content{
+    background-color: transparent;
+    color: white;
+    border-radius: 0;
+}
+
+.faq .ui-accordion .ui-accordion-header.ui-state-active{
+    border-bottom: none;
+}
+
+.faq .ui-accordion .ui-accordion-content.ui-accordion-content-active{
+    border-top: none;
+}
+
+.faq .ui-accordion .ui-icon{
+    text-indent: 0;
+    background-image: none;
+    background-position: inherit;
+    width: 20px;
+    height: 20px;
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    right: 20px;
+    top: 23px;
+
+}
+
+
+.faq .ui-accordion .ui-icon:before {
+     content: "\f054";
+    color: white;
+ }
+
+.faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon{
+    transform: rotate(90deg);
+    display: inline-block;
+    transition: 0.3s;
 }
