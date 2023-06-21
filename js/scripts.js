@@ -1,33 +1,31 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:0,
-        nav:true,
-        navText: [ '', ' ' ],
+        loop: true,
+        margin: 0,
+        nav: true,
+        navText: ['', ' '],
 
-        responsive:{
-            0:{
-                items:1
+        responsive: {
+            0: {
+                items: 1
             },
 
-            1000:{
-                items:5
+            1000: {
+                items: 5
             }
         }
     });
-    $( function() {
-        $( "#accordion" ).accordion();
-    } );
+    $(function () {
+        $("#accordion").accordion();
+    });
 });
-
-
-
 
 
 /* Please ❤ this if you like it! */
 
 
-(function($) { "use strict";
+(function ($) {
+    "use strict";
 
 
     //Navigation
@@ -48,7 +46,7 @@ $(document).ready(function(){
             });
         };
         var toggleClass = function toggleClass(element, stringClass) {
-            if (element.classList.contains(stringClass)) element.classList.remove(stringClass);else element.classList.add(stringClass);
+            if (element.classList.contains(stringClass)) element.classList.remove(stringClass); else element.classList.add(stringClass);
         };
         init();
     }();
@@ -60,8 +58,7 @@ $(document).ready(function(){
         if ($("body").hasClass("light")) {
             $("body").removeClass("light");
             $("#switch").removeClass("switched");
-        }
-        else {
+        } else {
             $("body").addClass("light");
             $("#switch").addClass("switched");
         }
