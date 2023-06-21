@@ -1071,3 +1071,8 @@ footer form button{
     display: inline-block;
     transition: 0.3s;
 }
+
+.logo{
+    position: relative;
+    z-index: 99;
+}
